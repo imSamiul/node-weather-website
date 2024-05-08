@@ -1,0 +1,27 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <link rel='stylesheet' href='/css/styles.css' />
+
+    <title>Node Web Server</title>
+  </head>
+ <body>
+    <div class="main-content">
+        {{>header}}
+
+        <p>Use this site to get your</p>
+        <form >
+          <input type="text" placeholder="City" id="city">
+                <input type="text" placeholder="Country" id="country">
+          <button>Show Weather</button>
+        </form>
+        <p id="address"></p>
+        <p id="temp"></p>
+        <p id="forecast"></p>
+    </div>
+
+    {{>footer}}
+ <script src='/js/app.js'></script>
+</body>
+</html>
