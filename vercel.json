@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "builds": [{ "src": "public", "use": "@vercel/static" }]
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/templates/views/index.hbs"
+    }
+  ]
 }
