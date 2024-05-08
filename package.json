@@ -5,8 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon ./src/app.js",
-    "hbs-server": "nodemon ./src/app.js -e js,hbs",
-    "build": "prebuild && npm run build:client"
+    "hbs-server": "nodemon ./src/app.js -e js,hbs"
   },
   "author": "",
   "license": "ISC",
